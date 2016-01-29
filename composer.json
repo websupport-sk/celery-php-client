@@ -1,0 +1,23 @@
+{
+    "name": "websupport/celery-php-client",
+    "description": "Simple celery client for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matej Capkovic",
+            "email": "matej.capkovic@websupport.sk"
+        },
+        {
+            "name": "Tomas Tatarko",
+            "email": "tomas.tatarko@websupport.sk"
+        }
+    ],
+    "require": {
+        "php": "~5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websupport\\Celery\\": "source/"
+        }
+    }
+}
